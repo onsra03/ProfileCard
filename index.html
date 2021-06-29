@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card | About Onsra03</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+    <iframe src="https://www.nhaccuatui.com/mh/background/0TYbLCmFVtBy" width="1" height="1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="avt.jpg" alt="">
+            </a>
+            <div class="title">
+               Pham Ho Anh Dung
+            </div>
+            <div class="place">
+               Nghe An, Viet Nam
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               Security Engineer and <br> Software Developer
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <button>Message</button>
+               </div>
+               <div class="btn">
+                  <button>Following</button>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/onsra03"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+            <li><a href="https://www.instagram.com/onsra03"><span class="fab fa-instagram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
